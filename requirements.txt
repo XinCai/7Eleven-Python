@@ -8,3 +8,5 @@ beautifulsoup4
 pyOpenSSL==18.0.0
 flask_basicauth
 pydes
+
+urllib3>=1.25.9 # not directly required, pinned by Snyk to avoid a vulnerability
